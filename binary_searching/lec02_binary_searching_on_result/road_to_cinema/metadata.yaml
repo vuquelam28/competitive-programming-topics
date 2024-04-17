@@ -1,0 +1,17 @@
+code: road_to_cinema
+slug: ''
+tags:
+  - binary search
+  - greedy
+  - sortings
+difficulty: 7
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: Road to Cinema
+src_id: 729/C
+src_url: https://codeforces.com/problemset/problem/729/C

@@ -1,0 +1,9 @@
+# Renting Bikes - Editorial
+
+***Subtask 1:*** The idea is to use greedy algorithm. Suppose that there are $k$ people being able to rent bikes, we will choose the $k$ people with the most amount of private money, and rent the $k$ bikes with the least rent for them (to minimize the risk of the shared money being not enough). For subtask $1,$ it is possible to iterate through all the values of $k = \{m, m - 1,..., 1, 0\}$ to try and find the suitable one.
+
+***Subtask 2:*** It is observable that this problem has the nature of binary searching: If there are $k$ people being able to rent bikes, surely $\{1, 2,..., k - 1\}$ people can also rent bikes. Thus, we will use binary searching to find the maximum number of people being able to rent bikes.
+
+Suppose that the number of people being able to rent bikes is $lim.$ Let the $lim$ people with the most money rent the $lim$ bikes with the lowest rent; the person with more money rent the bike with the higher rent. This greedy method is correct, since if the $i$-$th$ person cannot rent the $(lim - i + 1)$ bike, he also cannot rent either a more expensive bike or a cheaper bike as he will then take the renting slot of the person after him. The only way to help these $lim$ people rent bikes is to additionally spend the shared money, and if the additional amount of money exceeds the amount of the shared money, the number of people being able to rent bikes needs to be fewer than $lim,$ meaning $lim$ needs to be decreased by binary searching, otherwise increase $lim$.
+
+After calculating the maximum number of people being able to rent bikes, we will let them rent the cheapest ones, but using all of the shared money first, if not enough, use the private money. Then, the money they have to pay on their own is the minimum.

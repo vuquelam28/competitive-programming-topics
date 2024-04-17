@@ -1,0 +1,18 @@
+code: toy_blocks
+slug: ''
+tags:
+  - binary search
+  - greedy
+  - math
+  - sortings
+difficulty: 4.71391848665697
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Toy Blocks
+src_id: 1452/B
+src_url: http://codeforces.com/problemset/problem/1452/B

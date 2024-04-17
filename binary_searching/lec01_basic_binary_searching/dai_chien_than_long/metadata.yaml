@@ -1,0 +1,18 @@
+code: slay_the_dragon
+slug: ''
+tags:
+  - binary search
+  - greedy
+  - sortings
+  - ternary search
+difficulty: 4.416955930022421
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Slay the Dragon
+src_id: 1574/C
+src_url: https://codeforces.com/problemset/problem/1574/C

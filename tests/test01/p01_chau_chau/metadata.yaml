@@ -1,0 +1,15 @@
+code: odd_grasshopper
+slug: ''
+tags:
+  - math
+difficulty: 3.095736381507193
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Odd Grasshopper
+src_id: 1607/B
+src_url: https://codeforces.com/problemset/problem/1607/B

@@ -1,0 +1,3 @@
+# Lũy Thừa (Big Number) - Editorial
+
+Sử dụng giải thuật nhân số lớn với số nhỏ (hoặc nhân hai số lớn) để thực hiện nhân $a$ đúng $b$ lần vào một biến kết quả (ban đầu biến kết quả bằng $1$). Tuy nhiên, do $b \le 12000$ nên vẫn có khả năng xảy ra TLE do thuật toán nhân số lớn có độ phức tạp $O(n)$ với $n$ là độ dài số. Vì vậy, ta nên sử dụng kết hợp với thuật toán bình phương và nhân để đưa về độ phức tạp $O(n \times \log b)$.

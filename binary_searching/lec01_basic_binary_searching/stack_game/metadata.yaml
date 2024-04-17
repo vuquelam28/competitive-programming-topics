@@ -1,0 +1,14 @@
+code: stack_game
+slug: ''
+tags: [Binary Search, Prefix Sum Array, Maths]
+difficulty: 5.5
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 128
+testcase_format: ucode
+src_name: ''
+src_id: ''
+src_url: 'https://www.hackerrank.com/challenges/game-of-two-stacks/problem'

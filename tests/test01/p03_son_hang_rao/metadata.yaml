@@ -1,0 +1,17 @@
+code: colorful_bricks
+slug: ''
+tags:
+  - combinatorics
+  - dp
+  - math
+difficulty: 5.0004514886691895
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Colorful Bricks
+src_id: 1081/C
+src_url: http://codeforces.com/problemset/problem/1081/C

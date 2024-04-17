@@ -1,0 +1,14 @@
+code: max_median
+slug: ''
+tags: [Binary Searching, Dynamic Programming, Prefix Sum Array]
+difficulty: 6.5
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: ''
+src_id: ''
+src_url: ''

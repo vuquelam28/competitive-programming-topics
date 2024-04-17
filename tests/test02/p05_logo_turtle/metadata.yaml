@@ -1,0 +1,15 @@
+code: logo_turtle
+slug: ''
+tags:
+  - dp
+difficulty: 6.5
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Logo Turtle
+src_id: 132/C
+src_url: https://codeforces.com/problemset/problem/132/C

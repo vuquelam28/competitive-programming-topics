@@ -1,0 +1,17 @@
+code: alternating_subsequence
+slug: ''
+tags:
+  - dp
+  - greedy
+  - two pointers
+difficulty: 4.108334573043752
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Alternating Subsequence
+src_id: 1343/C
+src_url: https://codeforces.com/problemset/problem/1343/C

@@ -1,0 +1,16 @@
+code: cubes_sorting
+slug: ''
+tags:
+  - math
+  - sortings
+difficulty: 3.095736381507193
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Cubes Sorting
+src_id: 1420/A
+src_url: http://codeforces.com/problemset/problem/1420/A

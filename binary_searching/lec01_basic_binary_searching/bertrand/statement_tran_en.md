@@ -1,0 +1,16 @@
+# bertrand
+
+
+
+## Input
+
+
+
+## Constraints
+
+
+
+## Output
+
+
+
