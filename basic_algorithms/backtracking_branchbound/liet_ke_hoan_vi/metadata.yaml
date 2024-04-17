@@ -1,0 +1,16 @@
+code: p001_liet_ke_chuoi_hoan_vi
+slug: ''
+tags:
+  - Recursion
+  - Backtracking
+difficulty: 4.5
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 64
+testcase_format: ucode
+src_name: ''
+src_id: ''
+src_url: ''

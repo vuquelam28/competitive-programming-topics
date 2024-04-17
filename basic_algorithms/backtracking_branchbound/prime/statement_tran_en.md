@@ -1,0 +1,16 @@
+# prime
+
+
+
+## Input
+
+
+
+## Constraints
+
+
+
+## Output
+
+
+

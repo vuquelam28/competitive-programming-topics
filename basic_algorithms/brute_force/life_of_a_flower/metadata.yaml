@@ -1,0 +1,16 @@
+code: life_of_a_flower
+slug: ''
+tags:
+  - implementation
+  - brute force
+difficulty: 4
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: Life of a Flower
+src_id: 1591/A
+src_url: https://codeforces.com/problemset/problem/1591/A

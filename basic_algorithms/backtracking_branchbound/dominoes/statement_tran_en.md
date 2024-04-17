@@ -1,0 +1,16 @@
+# dominoes
+
+
+
+## Input
+
+
+
+## Constraints
+
+
+
+## Output
+
+
+

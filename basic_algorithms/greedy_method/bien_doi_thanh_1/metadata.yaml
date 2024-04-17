@@ -1,0 +1,16 @@
+code: our_tanya_is_crying_out_loud
+slug: ''
+tags:
+  - dp
+  - greedy
+difficulty: 4.71391848665697
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Our Tanya is Crying Out Loud
+src_id: 940/B
+src_url: https://codeforces.com/problemset/problem/940/B

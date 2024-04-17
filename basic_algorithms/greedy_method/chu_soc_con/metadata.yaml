@@ -1,0 +1,16 @@
+code: roadside_trees_simplified_edition
+slug: ''
+tags:
+  - greedy
+  - implementation
+difficulty: 3.449801223889849
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Roadside Trees (Simplified Edition)
+src_id: 265/B
+src_url: https://codeforces.com/problemset/problem/265/B

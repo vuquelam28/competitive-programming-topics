@@ -1,0 +1,17 @@
+code: emotes
+slug: ''
+tags:
+  - greedy
+  - math
+  - sortings
+difficulty: 3.449801223889849
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Emotes
+src_id: 1117/B
+src_url: https://codeforces.com/problemset/problem/1117/B

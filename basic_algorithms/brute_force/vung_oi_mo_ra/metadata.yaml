@@ -1,0 +1,16 @@
+code: omkar_and_password
+slug: ''
+tags:
+  - greedy
+  - math
+difficulty: 2.7213908124938904
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Omkar and Password
+src_id: 1392/A
+src_url: https://codeforces.com/problemset/problem/1392/A
