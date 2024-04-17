@@ -1,0 +1,3 @@
+# Dịch Vụ Thư Tín - Editorial
+
+Đây là một bài cơ bản ứng dụng cấu trúc dữ liệu `map` trong C++ hoặc `dict` (từ điển) trong Python. Với trường hợp truy vấn là tên người dùng lần đầu sử dụng thì ta sẽ lưu tên người dùng là một khóa và giá trị của khóa này sẽ là số lần được truy vấn đến giá trị này. Như vậy khi chưa có tên người dùng trong cơ sở dữ liệu, giá trị của khóa này sẽ là $0$. Đối với truy vấn có tên người dùng đã được sử dụng trước đó, ta chỉ việc in ra chuỗi gồm 2 phần là tên người dùng và số lần truy vấn trước đó rồi sau đó cập nhật lại số lần truy vấn.

@@ -1,0 +1,15 @@
+code: pair_of_toys
+slug: ''
+tags:
+  - math
+difficulty: 3.449801223889849
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Pair of Toys
+src_id: 1023/B
+src_url: https://codeforces.com/problemset/problem/1023/B

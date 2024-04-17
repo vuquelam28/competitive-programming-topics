@@ -1,0 +1,18 @@
+code: tom_riddle_s_diary
+slug: ''
+tags:
+  - brute force
+  - implementation
+  - strings
+  - map
+difficulty: 3
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Tom Riddle's Diary
+src_id: problem/A
+src_url: https://codeforces.com/contest/855/problem/A

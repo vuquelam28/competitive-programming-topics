@@ -1,0 +1,14 @@
+code: p014_dem_ki_tu
+slug: ''
+tags: ["set","brute force"]
+difficulty: 4.4
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: ''
+src_id: ''
+src_url: ''

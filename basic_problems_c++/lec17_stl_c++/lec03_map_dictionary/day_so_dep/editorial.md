@@ -1,0 +1,3 @@
+# Dãy Số Đẹp - Editorial
+
+Ta có thể sử dụng cấu trúc dữ liệu `map` trong C++ hoặc từ điển `dict` trong Python để giải quyết bài toán. Cụ thể với key là các phần tử riêng biệt trong dãy và value là số lần lặp lại của phần tử đó. Nếu số lần lặp lại của phần tử $a_i$ ít hơn $a_i$ thì bỏ đi tất cả các phần tử $a_i$. Ngược lại nếu số lần lặp lại của phần tử $a_i$ lớn hơn ta chỉ cần bỏ đi số lượng phần tử thừa. 

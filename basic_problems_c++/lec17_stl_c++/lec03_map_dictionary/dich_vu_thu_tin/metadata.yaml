@@ -1,0 +1,18 @@
+code: diem_danh_vao_lop_hoc
+slug: ''
+tags:
+  - data structures
+  - hashing
+  - implementation
+  - map
+difficulty: 4.5
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 5000
+limit_memory_mb: 64
+testcase_format: ucode
+src_name: Registration system
+src_id: problem/C
+src_url: https://codeforces.com/contest/4/problem/C

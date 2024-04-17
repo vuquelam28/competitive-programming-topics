@@ -1,0 +1,17 @@
+code: radio_station
+slug: ''
+tags:
+  - implementation
+  - strings
+  - map
+difficulty: 3.095736381507193
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 2000
+limit_memory_mb: 256
+testcase_format: ucode
+src_name: Radio Station
+src_id: problem/B
+src_url: https://codeforces.com/contest/918/problem/B

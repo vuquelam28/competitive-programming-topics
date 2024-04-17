@@ -1,0 +1,14 @@
+code: giai_pt_bac_2
+slug: ''
+tags: [Basic, Maths]
+difficulty: 3.0
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: ''
+src_id: ''
+src_url: ''

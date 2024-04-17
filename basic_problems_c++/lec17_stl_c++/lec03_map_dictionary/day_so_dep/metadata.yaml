@@ -1,0 +1,17 @@
+code: good_sequence
+slug: ''
+tags: 
+  - map
+  - data structure
+  - implementation
+difficulty: 4
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 64
+testcase_format: ucode
+src_name: ''
+src_id: ''
+src_url: https://atcoder.jp/contests/arc087/tasks/arc087_a

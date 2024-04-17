@@ -1,0 +1,14 @@
+code: hang_co_tong_lon_nhat
+slug: ''
+tags: [Basic, Array 2D]
+difficulty: 1.5
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: ''
+src_id: ''
+src_url: ''
