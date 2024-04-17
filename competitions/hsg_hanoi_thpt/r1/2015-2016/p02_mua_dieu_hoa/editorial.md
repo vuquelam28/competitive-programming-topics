@@ -1,0 +1,15 @@
+# Mua Điều Hòa - Editorial
+
+### Subtask 1
+
+Ứng với mỗi lớp học, ta duyệt qua cả $M$ model điều hòa và tìm ra mẫu có giá thấp nhất phù hợp với lớp học đó, cộng tổng số tiền lại để thu được kết quả.
+
+***Độ phức tạp:*** $O(n \times m)$.
+
+### Subtask 2
+
+Vẫn dựa trên ý tưởng cũ nhưng cần cải tiến một chút. Cụ thể, với mỗi lớp học, nếu như ta xác định được ngay tập hợp các điều hòa phù hợp với lớp đó thì có thể tìm được giá nhỏ nhất nhanh hơn:
+- Đầu tiên ta sắp xếp lại tập $M$ chiếc điều hòa theo thứ tự giảm dần về công suất. Áp dụng tìm kiếm nhị phân, ta tìm được vị trí $\text{p\_max}$ sao cho mọi chiếc điều hòa từ vị trí $1$ tới vị trí $\text{p\_max}$ đều có công suất lớn hơn hoặc bằng $a_i$ - công suất tối thiểu mà lớp thứ $i$ cần. 
+- Đặt $\text{minimum\_cost}[i]$ là giá nhỏ nhất của các điều hòa từ vị trí $1$ tới vị trí $i$. Ta hoàn toàn xây dựng được mảng này trong $O(M)$ áp dụng quy hoạch động cơ bản. Nhờ mảng $\text{minimum\_cost}[i],$ mà mỗi khi tìm kiếm nhị phân được một vị trí $\text{p\_max}$ thì chúng ta sẽ biết ngay giá tiền nhỏ nhất của chiếc điều hòa cần mua cho một lớp là $\text{minimum\_cost}[\text{p\_max}]$. Cộng toàn bộ các giá tiền nhỏ nhất cần bỏ ra cho mỗi lớp lại, ta thu được kết quả cuối.
+
+***Độ phức tạp:*** $O(n \times \log)$.

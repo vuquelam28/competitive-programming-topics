@@ -1,0 +1,11 @@
+# Đếm Ước - Editorial
+
+Đây là một bài không đơn giản, cần sử dụng kết hợp giữa kĩ thuật chia để trị - cụ thể là duyệt phân đôi tập hợp, kết hợp cùng kĩ thuật nhánh và cận. Về cơ bản, chúng ta vẫn tiến hành chia đôi tập các số nguyên tố ra và tạo tất cả các tích có thể giữa chúng, rồi ghép các tập con của hai bên lại để tạo thành các ước trong đoạn $[A, B]$.
+
+Đối với công việc đầu tiên là sinh mọi tập con của tập các số nguyên tố ban đầu, ta sẽ có ba bước:
+- ***Bước 1:*** Tạo một `vector` $expo[i]$: Là lũy thừa lớn nhất của số nguyên tố thứ $i$ và không vượt quá giá trị $B$ (có chứa cả giá trị $1$).
+- ***Bước 2:*** Chia tập các số nguyên tố ra làm hai nửa. Áp dụng kĩ thuật duyệt phân đôi tập hợp, sinh ra mọi tập con của hai nửa đó và lưu tích của tập con vào hai tập hợp là $\text{left\_set}$ và $\text{right\_set}$. Kĩ thuật ở đây là với mỗi số nguyên tố $i,$ ta sẽ lựa chọn lần lượt các lũy thừa của nó: $p[i]^0, p[i]^1,...,p[i]^{max};$ các lũy thừa này đều đã được tính sẵn bằng `vector` $expo[i]$ mà bước $1$ vừa tính.
+Thêm một lưu ý, là mặc dù số lượng tập con có thể rất lớn, nhưng khoảng giá trị [A, B] thì chỉ là 10^9. Vì thế ta áp dụng thêm kĩ thuật nhánh cận trong quá trình sinh, nếu thấy tích hiện tại đã vượt quá B thì không cần nhân thêm các lũy thừa của các số nguyên tố sau vào nữa.
+- ***Bước 3:*** Sắp xếp lại hai tập hợp lớn $\text{left\_set}$ và $\text{right\_set},$ giờ hai tập này chứa các tích sinh ra của hai nửa.
+
+Công việc cuối cùng là ghép các giá trị của hai tập. Ứng với mỗi tích $mul$ trên tập $\text{left\_set},$ chặt nhị phân tìm đoạn vị trí $[\text{pos\_l, pos\_r}]$ trên tập $\text{right\_set}$ sao cho tích mul nhân với bất kỳ tích nào từ $\text{pos\_l}$ tới $\text{pos\_r}$ đều không bị nằm ngoài đoạn $[A, B]$. Khi đó, số lượng ước của $n$ trong đoạn $[A, B]$ sinh ra bởi $mul$ là: $(\text{pos\_r} - \text{pos\_l} + 1)$. Chúng ta cũng không cần xét riêng các tích trên từng tập hợp, vì mỗi tập hợp đều chứa một giá trị $1,$ nên sẽ xét được luôn các tập con thuộc từng tập có là ước của $n$ thuộc đoạn $[A, B]$ hay không.

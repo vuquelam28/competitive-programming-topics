@@ -1,0 +1,14 @@
+code: p02_prime
+slug: ''
+tags: [Maths, Prime Number, Eratosthenes Sieve, Prefix Sum Array, Dynamic Programming]
+difficulty: 4.25
+experience_gain: 100
+statement_format: markdown
+statement_language: vi
+statement_translations: []
+limit_time_ms: 1000
+limit_memory_mb: 256
+testcase_format: themis
+src_name: ''
+src_id: ''
+src_url: ''

@@ -1,0 +1,16 @@
+# countpots
+
+
+
+## Input
+
+
+
+## Constraints
+
+
+
+## Output
+
+
+
